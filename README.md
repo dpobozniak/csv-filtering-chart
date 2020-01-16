@@ -1,7 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# CSV filtering chart
+
+A simple dashboard, that shows metrics extacted from CSV file (http://adverity-challenge.s3-website-eu-west-1.amazonaws.com/DAMKBAoDBwoDBAkOBAYFCw.csv) for given regular dimension values (as user input) over time.
+
+The data contains:
+- one time dimension (Date)
+- two regular dimensions (Campaign, Datasource)
+- two metrics (Clicks, Impressions)
+
+![App screenshot](/public/screenshot.png)
+
+Initially, no Datasource or Campaign is selected, hence the chart should show Clicks and
+Impressions over time for the entire data set. Users can then filter the dataset for both Datasources
+and Campaigns.
 
 ## Available Scripts
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br />
 In the project directory, you can run:
 
 ### `yarn start`
